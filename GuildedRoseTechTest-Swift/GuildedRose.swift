@@ -64,4 +64,46 @@ public class GildedRose {
             }
         }
     }
+    
+//    public func updateQuality2() {
+//        for item in items {
+//            if item.quality != 0 && item.name != "Sulfuras, Hand of Ragnaros" {
+//                switch item.name {
+//                case "Aged Brie":
+//                    if item.quality == 50 {
+//                        return
+//                    } else {
+//                        item.quality += 1
+//                    }
+//                case "Backstage passes to a TAFKAL80ETC concert":
+//                    if item.quality == 50 {
+//                        return
+//                    } else {
+//                        switch item.sellIn {
+//                        case 0:
+//                            item.quality = 0
+//                        case 1...5:
+//                            item.quality += 3
+//                        case 6...10:
+//                            item.quality += 2
+//                        default:
+//                            item.quality += 1
+//                        }
+//                    }
+//                default:
+//                    var adjustment = 1
+//
+//                    if item.sellIn <= 0 {
+//                        adjustment *= 2
+//                    }
+//
+//                    if item.description.lowercased().contains("conjured") {
+//                        adjustment *= 2
+//                    }
+//
+//                    item.quality -= adjustment
+//                }
+//            }
+//        }
+//    }
 }
