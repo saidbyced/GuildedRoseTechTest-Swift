@@ -46,7 +46,8 @@ public class GildedRose {
                             adjustment *= 2
                         }
 
-                        if item.description.lowercased().contains("conjured") {
+                        // String.contains() only works for characters. Converted string to array to search for substring
+                        if item.description.lowercased().split(separator: " ").contains("conjured") {
                             adjustment *= 2
                         }
 
