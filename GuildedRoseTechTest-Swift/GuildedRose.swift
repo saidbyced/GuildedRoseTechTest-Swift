@@ -33,6 +33,10 @@ public class GildedRose {
                         default:
                             item.quality += 1
                         }
+                        
+                        if item.quality > 50 {
+                            item.quality = 50
+                        }
                     }
                 default:
                     if item.quality != 0 {
